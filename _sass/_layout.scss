@@ -86,6 +86,23 @@
     }
 }
 
+/**
+ * site category
+ */
+.cate {
+    position: absolute;
+    top: 90px;
+    left: -100px;
+    width: 100px;
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+    }
+}
 
 
 /**

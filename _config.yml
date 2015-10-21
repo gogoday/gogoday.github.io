@@ -1,7 +1,7 @@
 # Site settings
-title: Web 前端 Javascript
+title: Javascript
 email: 404645486@qq.com
-description: > # web 前端 javascript html css 知识 积累
+description: > # web javascript html css
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.jihua.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb

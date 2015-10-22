@@ -4,12 +4,12 @@ title:  "Http缓存"
 date:   2014-3-21 08:18:01
 categories: 缓存
 ---
-http://www.cnblogs.com/cuixiping/archive/2008/05/04/1181056.html
-http://kb.cnblogs.com/page/73901/
-https://www.mnot.net/cache_docs/
-http://www.oschina.net/news/41397/web-cache-knowledge?p=2
-http://www.cnblogs.com/skynet/archive/2012/11/28/2792503.html
-http://my.oschina.net/leejun2005/blog/369148
+http://www.cnblogs.com/cuixiping/archive/2008/05/04/1181056.html    
+http://kb.cnblogs.com/page/73901/    
+https://www.mnot.net/cache_docs/    
+http://www.oschina.net/news/41397/web-cache-knowledge?p=2    
+http://www.cnblogs.com/skynet/archive/2012/11/28/2792503.html    
+http://my.oschina.net/leejun2005/blog/369148    
 
 在web开发或面试中经常会遇到浏览器缓存的问题
 浏览器缓存机制，其实主要就是HTTP协议定义的缓存机制（如： Expires； Cache-control等）。但是也有非HTTP协议定义的缓存机制，如使用HTML Meta 标签，Web开发者可以在HTML页面的<head>节点中加入<meta>标签，代码如下：

@@ -44,7 +44,7 @@ Web代理服务器使用同样的缓存原理，只是规模更大。代理以�
 
 
 
-
+[http://www.oschina.net/news/41397/web-cache-knowledge?p=2](web cache)
 
 
 

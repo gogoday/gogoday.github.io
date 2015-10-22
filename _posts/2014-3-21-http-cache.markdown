@@ -4,17 +4,35 @@ title:  "Http缓存"
 date:   2014-3-21 08:18:01
 categories: 缓存
 ---
-http://www.cnblogs.com/cuixiping/archive/2008/05/04/1181056.html    
-http://kb.cnblogs.com/page/73901/    
-https://www.mnot.net/cache_docs/    
-http://www.oschina.net/news/41397/web-cache-knowledge?p=2    
-http://www.cnblogs.com/skynet/archive/2012/11/28/2792503.html    
-http://my.oschina.net/leejun2005/blog/369148    
 
-在web开发或面试中经常会遇到浏览器缓存的问题
-浏览器缓存机制，其实主要就是HTTP协议定义的缓存机制（如： Expires； Cache-control等）。但是也有非HTTP协议定义的缓存机制，如使用HTML Meta 标签，Web开发者可以在HTML页面的<head>节点中加入<meta>标签，代码如下：
 
-下面我主要介绍HTTP协议定义的缓存机制。
+### 什么是Web缓存，为什么要使用它？
+### Web缓存的类型
+### Web缓存无害吗？为什么要鼓励缓存？
+### Web缓存如何工作
+### 如何控制缓存和不缓存
+##### HTML Meta标签 vs. HTTP头信息
+##### Pragma HTTP头信息（以及为什么不起作用）
+##### 使用Expires HTTP头信息控制不过期
+##### Cache-Control（缓存控制）HTTP头信息
+##### 验证器和验证
+### 创建支持缓存网站的小技巧
+### 编写支持缓存的脚本
+### 常见问题解答
+##### 缓存可用的最重要事情是？
+其中一个不错的策略是找出常用的、规模较大的内容（尤其图片），然后优先处理之。
+##### 我该如何利用缓存让我的页面尽可能的快？
+##### 我知道缓存是个好东西，但是我想随时知道多少人访问了我的网页！
+##### 我该如何查看HTTP头？
+##### 我的页面是密码保护的，代理缓存是怎么处理的？
+##### 我在寻找一个集成的Web发布解决方案。哪些是可缓存的？
+##### 我的图片缓存一个月后才到期，我现在就想变动！
+##### 我运行一个Web Hosting服务。我怎样才能让我的用户发布缓存友好的网页？
+##### 我明明告诉网页要好好缓存，但它老是去请求，怎么破？
+##### Web服务器端
+##### 服务端脚本
+##### 参考文档和拓展阅读
+
 
 ### Expires策略
 Expires是Web服务器响应消息头字段，在响应http请求时告诉浏览器在过期时间前浏览器可以直接从浏览器缓存取数据，而无需再次请求。

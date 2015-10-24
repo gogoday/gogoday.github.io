@@ -284,11 +284,13 @@ sit amet, consectetuer adipiscing elit.
 
     > This is a blockquote
     > inside a list item.
+    
 如果要放代码区块的话，该区块就需要缩进两次，也就是 8 个空格或是 2 个制表符：
 
 *   一列表项包含一个列表区块：
 
         <代码写在这>
+        
 当然，项目列表很可能会不小心产生，像是下面这样的写法：
 
 1986. What a great season.

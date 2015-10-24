@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Http缓存"
+title:  "Web 缓存"
 date:   2014-3-21 08:18:01
 categories: 缓存
 ---

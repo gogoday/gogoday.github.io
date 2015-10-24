@@ -25,10 +25,6 @@
     <div class="cate">
       <ul>
 
-        {%site.categories%}
-
-        {% categories %}
-
         {% for cate in categories %}
         <li>
             <a class="post-link" href="?c={{ post.title }}">{{ post.title }}</a>

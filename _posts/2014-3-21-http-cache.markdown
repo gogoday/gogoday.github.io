@@ -391,26 +391,16 @@ ASP和ASP.NET
 
 ASP(`Active Server Pages`)，IIS内置，也可用于其他Web服务器，同样允许你设置HTTP头。例如设置过期时间，你可以使用`Response`自带属性：
 
-{% highlight asp %}
-<% Response.Expires=1440 %>
-{% endhighlight %}
+    <% Response.Expires=1440 %>
 
 指定内容过期的分钟数。`Cache-Control`头添加如下：
 
-{% highlight asp %}
-<% Response.CacheControl="public" %>
-{% endhighlight %}
+    <% Response.CacheControl="public" %>
 
 在ASP.NET中，`Response.Expires`已经不推荐使用了，正确的方法是通过`Response.Cache`设置缓存相关的头信息，如下：
 
-{% highlight asp %}
-Response.Cache.SetExpires ( DateTime.Now.AddMinutes ( 60 ) ) ;
-Response.Cache.SetCacheability ( HttpCacheability.Public ) ;
-{% endhighlight %}
-
-
-
-
+    Response.Cache.SetExpires ( DateTime.Now.AddMinutes ( 60 ) ) ;
+    Response.Cache.SetCacheability ( HttpCacheability.Public ) ;
 
 [原文地址](http://www.oschina.net/news/41397/web-cache-knowledge?p=2)
 

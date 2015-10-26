@@ -1,5 +1,5 @@
 document.ready = function () {
-	var article,
+	var article, articleChilds,
 		target,
 		ce = document.createElement,
 		fragment = document.createDocumentFragment(),
@@ -43,6 +43,6 @@ document.ready = function () {
 			} else {
 				document.getElementById('leftMenu').className = 'menu';
 			}
-		})
+		};
 	})(document.body)
 };

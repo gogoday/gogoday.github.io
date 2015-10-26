@@ -1,10 +1,9 @@
 window.onload = function () {
 	var article, articleChilds,
 		target,
-		ce = document.createElement,
 		fragment = document.createDocumentFragment(),
-		ul = ce('ul'),
-		li = ce('li'),
+		ul = document.createElement('ul'),
+		li = document.createElement('li'),
 		a = ce('a'),
 		index = 1;
 

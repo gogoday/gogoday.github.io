@@ -1,3 +1,15 @@
+function getLeft(dom) {
+    var p, left = 0;
+    p = dom.offsetParent;
+    while (p.tagName.toLowerCase() != 'body') {
+        console.log(p.className + ':' + p.offsetLeft);
+        left += p.offsetLeft;
+        p = p.offsetParent;
+    }
+    return left + dom.offsetLeft + dom.offsetWidth + 20;
+
+}
+
 function menu () {
 	var article, articleChilds,
 		target,

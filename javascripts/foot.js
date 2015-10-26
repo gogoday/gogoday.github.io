@@ -1,4 +1,4 @@
-document.ready = function () {
+document.onload = function () {
 	var article, articleChilds,
 		target,
 		ce = document.createElement,

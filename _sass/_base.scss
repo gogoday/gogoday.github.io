@@ -204,3 +204,36 @@ pre {
         }
     }
 }
+
+
+.post {
+	position: relative;
+}
+
+.menu {
+	position: absolute;
+	top: 160px;
+	left: 760px;
+	list-style: none;
+	width: 300px;
+	font-style: italic;
+	ul, li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		word-break: normal;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.h4 {
+		text-indent: 30px;
+		font-size: 14px;
+	}
+}
+
+.fixed {
+	position: fixed;
+	  top: 0;
+	  left: 1000px;
+}

@@ -1,4 +1,4 @@
-window.onload = function () {
+function menu () {
 	var article, articleChilds,
 		target,
 		fragment = document.createDocumentFragment(),
@@ -44,4 +44,6 @@ window.onload = function () {
 			}
 		};
 	})(document.body)
-};
+}
+
+menu();

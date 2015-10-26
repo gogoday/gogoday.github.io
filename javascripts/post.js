@@ -10,6 +10,15 @@ function getLeft(dom) {
 
 }
 
+function hc() {
+    window.addEventListener('hashchange', function () {
+        var h, hd;
+        h = location.hash;
+        hd = document.getElementById(h);
+        hd.innerHTML = '<span style="color:red">>></span>' + hd.innerHTML;
+    });
+}
+
 function menu () {
 	var article, articleChilds,
 		target,
@@ -32,6 +41,7 @@ function menu () {
 			a.innerHTML = item.innerHTML;
             a.title = item.innerHTML;
 			a.href = '#' + item.id;
+            a.id = '#' + item.id;
 			li.appendChild(a);
 			li.className = tag;
 			ul.appendChild(li);

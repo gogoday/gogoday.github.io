@@ -259,6 +259,11 @@ pre {
 	  left: 1000px;
 }
 
+.cate-fixed {
+    position: fixed;
+    top: 0;
+}
+
 table {
     border-collapse: collapse;
     margin-bottom: 20px;
@@ -269,6 +274,6 @@ table {
     }
 }
 
-red {
+.red {
     color:red;
 }

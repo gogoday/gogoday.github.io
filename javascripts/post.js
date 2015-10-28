@@ -1,26 +1,3 @@
-function getLeft(dom) {
-    var p, left = 0;
-    p = dom.offsetParent;
-    while (p.tagName.toLowerCase() != 'body') {
-        left += p.offsetLeft;
-        p = p.offsetParent;
-    }
-    return left + dom.offsetLeft + dom.offsetWidth + 20;
-
-}
-
-function hc() {
-    window.addEventListener('hashchange', function () {
-        var h, hd;
-        h = location.hash;
-        hd = document.getElementById(h);
-        [].forEach.call(document.getElementById('leftMenu').getElementsByTagName('a'), function (item) {
-            item.className = '';
-        });
-        hd.className = 'red';
-    });
-}
-
 function menu () {
 	var article, articleChilds, leftMenu,
 		target,
@@ -54,18 +31,6 @@ function menu () {
 
     leftMenu = document.getElementById('leftMenu');
     leftMenu.appendChild(fragment);
-
-	window.onscroll = function (e) {
-		if (window.scrollY > 257) {
-			leftMenu.className = 'menu fixed';
-			leftMenu.style.left = getLeft(document.getElementsByTagName('article')[0]) + 'px';
-		} else {
-			leftMenu.className = 'menu';
-			leftMenu.removeAttribute('style');
-		}
-	};
-
 }
 
 menu();
-hc();

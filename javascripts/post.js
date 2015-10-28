@@ -19,7 +19,7 @@ function hc() {
 }
 
 function menu () {
-	var article, articleChilds,
+	var article, articleChilds, leftMenu,
 		target,
 		fragment = document.createDocumentFragment(),
 		ul = document.createElement('ul'),
@@ -49,20 +49,20 @@ function menu () {
 
 	fragment.appendChild(ul);
 
-	document.getElementById('leftMenu').appendChild(fragment);
+    leftMenu = document.getElementById('leftMenu');
+    leftMenu.appendChild(fragment);
 
-	(function (body) {
-        var leftMenu = document.getElementById('leftMenu');
-		body.onscroll = function (e) {
-			if (body.scrollTop > 257) {
-                leftMenu.className = 'menu fixed';
-                leftMenu.style.left = getLeft(document.getElementsByTagName('article')[0]) + 'px';
-			} else {
-                leftMenu.className = 'menu';
-                leftMenu.removeAttribute('style');
-			}
-		};
-	})(document.body)
+	window.onscroll = function (e) {
+		if (window.scrollY > 257) {
+			leftMenu.className = 'menu fixed';
+			leftMenu.style.left = getLeft(document.getElementsByTagName('article')[0]) + 'px';
+		} else {
+			leftMenu.className = 'menu';
+			leftMenu.removeAttribute('style');
+		}
+	};
+
 }
 
 menu();
+hc();

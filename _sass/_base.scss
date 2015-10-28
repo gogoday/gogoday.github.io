@@ -212,7 +212,7 @@ pre {
 .cate {
     position: absolute;
     top: 90px;
-    left: -100px;
+    left: -150px;
     width: 100px;
     ul {
         margin: 0;
@@ -221,7 +221,7 @@ pre {
         li {
             list-style: none;
             a{
-                font-size: 0.3em;
+                font-size: 20px;
             }
         }
     }
@@ -257,4 +257,14 @@ pre {
 	position: fixed;
 	  top: 0;
 	  left: 1000px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    td, th {
+        border: 1px solid rgb(139, 78, 205);
+        padding: 1px 10px;
+    }
 }

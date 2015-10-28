@@ -39,7 +39,7 @@ function myScroll() {
             }
             if (cate) {
                 cate.className = 'cate cate-fixed';
-                cate.style.left = (getLeft(article) - cate.offsetWidth - 20) + 'px';
+                cate.style.left = (getLeft(article) - article.offsetWidth - cate.offsetWidth - 20) + 'px';
             }
         } else {
             if (leftMenu) {

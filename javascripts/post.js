@@ -14,7 +14,10 @@ function hc() {
         var h, hd;
         h = location.hash;
         hd = document.getElementById(h);
-        hd.innerHTML = '<span style="color:red">>></span>' + hd.innerHTML;
+        [].forEach.call(document.getElementById('leftMenu').getElementsByTagName('a'), function (item) {
+            item.className = '';
+        });
+        hd.className = 'red';
     });
 }
 

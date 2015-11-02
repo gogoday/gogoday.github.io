@@ -6,7 +6,7 @@ categories: test
 ---
 
 
-###	为什么需要自动化测试
+###    为什么需要自动化测试
 
 一个项目最终会经过快速迭代走向以维护为主的状态，在合理的时机以合理的方式引入自动化测试能有效减少人工维护成本。自动化测试的收益可以简单总结为：
 
@@ -20,10 +20,10 @@ categories: test
 
 前端自动化测试可以在几个方向进行尝试：
 
->**界面回归测试** 测试界面是否正常，这是前端测试最基础的环节
->**功能测试** 测试功能操作是否正常，由于涉及交互，这部分测试比界面测试会更复杂
->**性能测试** 页面性能越来越受到关注，并且性能需要在开发过程中持续关注，否则很容易随着业务迭代而下降。
->**页面特征检测** 有些动态区域无法通过界面对比进行测试、也没有功能上的异常，但可能不符合需求。例如性能测试中移动端大图素材检测就是一种特征检测，另外常见的还有页面区块静态资源是否符合预期等等。
+>**界面回归测试** 测试界面是否正常，这是前端测试最基础的环节              
+>**功能测试** 测试功能操作是否正常，由于涉及交互，这部分测试比界面测试会更复杂              
+>**性能测试** 页面性能越来越受到关注，并且性能需要在开发过程中持续关注，否则很容易随着业务迭代而下降。              
+>**页面特征检测** 有些动态区域无法通过界面对比进行测试、也没有功能上的异常，但可能不符合需求。例如性能测试中移动端大图素材检测就是一种特征检测，另外常见的还有页面区块静态资源是否符合预期等等。              
 
 ### 业界开源工具
 
@@ -59,10 +59,10 @@ categories: test
 
 ####像素对比需要注意的问题
 
->**不建议对网站所有页面进行测试** 这只会导致很容易出现告警，但不一定是错误。针对重复使用的组件和样式、容易出问题的区域测试更加有效
->**推荐测试区域而不是整个页面** 整个页面的测试导致任何一点文字、图像等动态的改变都可能导致不通过，而且真正的错误可能由于图像太大而被阈值忽略。图像越大对比也越容易超时。
->**隐藏动态区域** 在选择器对应的区域如果有动态元素，可以同样通过选择器来隐藏
->**界面对比只是一个环**节，需与其他测试相结合 没有银弹，合理结合才是关键
+>**不建议对网站所有页面进行测试** 这只会导致很容易出现告警，但不一定是错误。针对重复使用的组件和样式、容易出问题的区域测试更加有效            
+>**推荐测试区域而不是整个页面** 整个页面的测试导致任何一点文字、图像等动态的改变都可能导致不通过，而且真正的错误可能由于图像太大而被阈值忽略。图像越大对比也越容易超时。            
+>**隐藏动态区域** 在选择器对应的区域如果有动态元素，可以同样通过选择器来隐藏            
+>**界面对比只是一个环**节，需与其他测试相结合 没有银弹，合理结合才是关键            
 
 ####dom结构对比
 
@@ -126,17 +126,17 @@ casperjs能监听测试和页面的各个状态进行截图等操作，如果针
 
 国外做的比较好的轻量级ci系统有:
 
-http://wercker.com/
-https://semaphoreci.com/
-https://codeship.com
-https://circleci.com/
+http://wercker.com/        
+https://semaphoreci.com/        
+https://codeship.com        
+https://circleci.com/        
 
 ###参考资料：
-http://rupl.github.io/frontend-testing/#/6/2
-http://www.phase2technology.com/blog/css-testing-with-phantomcss-phantomjs-casperjs-and-grunt/
-http://blog.nodejitsu.com/npmawesome-page-metrics-with-phantomas/
-http://fideloper.com/ubuntu-beanstalkd-and-laravel4
-http://www.yegor256.com/2014/10/05/ten-hosted-continuous-integration-services.html
-http://www.zhihu.com/question/19786019
-http://www.zhihu.com/question/29922082
+http://rupl.github.io/frontend-testing/#/6/2            
+http://www.phase2technology.com/blog/css-testing-with-phantomcss-phantomjs-casperjs-and-grunt/            
+http://blog.nodejitsu.com/npmawesome-page-metrics-with-phantomas/            
+http://fideloper.com/ubuntu-beanstalkd-and-laravel4            
+http://www.yegor256.com/2014/10/05/ten-hosted-continuous-integration-services.html            
+http://www.zhihu.com/question/19786019            
+http://www.zhihu.com/question/29922082            
 

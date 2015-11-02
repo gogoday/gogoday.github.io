@@ -60,8 +60,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8911466">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.52249634">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -176,8 +176,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
-    <option name="y" value="61" />
+    <option name="x" value="312" />
+    <option name="y" value="85" />
     <option name="width" value="1411" />
     <option name="height" value="854" />
   </component>
@@ -493,11 +493,17 @@
       <option name="project" value="LOCAL" />
       <updated>1446478820956</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="&#10;fff&#10;">
+      <created>1446481071165</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1446481071165</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="61" width="1411" height="854" extended-state="0" />
+    <frame x="312" y="85" width="1411" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28960574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -555,7 +561,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="second" />
     <MESSAGE value="&#10;fff" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;fff" />
+    <MESSAGE value="&#10;fff&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;fff&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -976,8 +983,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8911466">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.52249634">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
           <folding />
         </state>
       </provider>

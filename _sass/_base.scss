@@ -35,7 +35,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+p {
+    text-indent: 32px;
+}
 
 /**
  * Images
@@ -111,7 +113,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -127,7 +129,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 14px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
@@ -201,4 +203,77 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+
+/**
+ * site category
+ */
+.cate {
+    position: absolute;
+    top: 90px;
+    left: -150px;
+    width: 100px;
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            a{
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.post {
+	position: relative;
+}
+
+.menu {
+	position: absolute;
+	top: 160px;
+	left: 760px;
+	list-style: none;
+	width: 300px;
+	font-style: italic;
+	ul, li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		word-break: normal;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.h4 {
+		text-indent: 30px;
+		font-size: 14px;
+	}
+}
+
+.fixed {
+	position: fixed;
+	  top: 0;
+	  left: 1000px;
+}
+
+.cate-fixed {
+    position: fixed;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    td, th {
+        border: 1px solid rgb(139, 78, 205);
+        padding: 1px 10px;
+    }
+}
+
+a.red:visited {
+    color:red;
 }

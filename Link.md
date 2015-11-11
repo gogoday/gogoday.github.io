@@ -14,3 +14,7 @@ permalink: /link/
 [https://www.qinco.net/](https://www.qinco.net/)    
 [https://github.com/gruntjs/](https://github.com/gruntjs/)    
 [http://rogerdudler.github.io/git-guide/index.zh.html](http://rogerdudler.github.io/git-guide/index.zh.html)    
+[http://www.w3ctech.com/](http://www.w3ctech.com/)    
+[前端手册](http://www.frontendhandbook.com/)   
+[jdc前段快报](http://jdc.jd.com/express/)         
+[segmentfault](http://segmentfault.com/)

@@ -16,5 +16,8 @@ permalink: /link/
 [http://rogerdudler.github.io/git-guide/index.zh.html](http://rogerdudler.github.io/git-guide/index.zh.html)    
 [http://www.w3ctech.com/](http://www.w3ctech.com/)    
 [前端手册](http://www.frontendhandbook.com/)   
+[前端手册中文](https://dwqs.gitbooks.io/frontenddevhandbook/content/index.html)   
 [jdc前段快报](http://jdc.jd.com/express/)         
 [segmentfault](http://segmentfault.com/)
+[python tk](http://www.python-course.eu/tkinter_text_widget.php)
+[http://jdc.jd.com/hi](http://jdc.jd.com/hi/)

@@ -21,3 +21,5 @@ permalink: /link/
 [segmentfault](http://segmentfault.com/)          
 [python tk](http://www.python-course.eu/tkinter_text_widget.php)           
 [http://jdc.jd.com/hi](http://jdc.jd.com/hi/)          
+[babeljs](http://babeljs.io/)         
+[es6](https://leanpub.com/understandinges6/read)          

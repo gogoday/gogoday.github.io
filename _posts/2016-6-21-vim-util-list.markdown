@@ -7,6 +7,7 @@ categories: vim
 
 
 * plugin list
+
     Plugin 'scrooloose/nerdtree'
     Plugin 'bling/vim-airline'
     Plugin 'vim-scripts/neocomplcache'

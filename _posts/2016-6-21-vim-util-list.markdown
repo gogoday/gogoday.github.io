@@ -16,4 +16,17 @@ categories: vim
     Plugin 'isRuslan/vim-es6'
 
 
+### netrw
+
+    :edit file name to edit
+    :Explore open fir list
+    in Explore state
+    % create new file
+    d create new directory
+    R renameing fiels or directory
+    D deleting files or directory
+
+### 多列操作
+    
+    Ctrl + q
 

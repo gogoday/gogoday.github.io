@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "cmd util"
+date:   2016-6-21 17:28:00
+categories: cmd 
+---
+
+
+### dir
+    
+    explorer . open explorer current directry

@@ -28,5 +28,6 @@ categories: vim
 
 ### 多列操作
     
-    Ctrl + q
+    Ctrl + q // 正常应该是 Ctrl + v 
+
 

@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "遇到的问题"
+date:   2016-8-10 18:8:01
+categories: question 
+---
+
+#### 1.ios中如果html页面中的video正在播放视频，点击home间会触发video的pause事件
+
+#### 2.固定长度截取后面加省略号，css实现
+
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100px;
+
+#### 3.设置透明度
+
+  opacity:0.5 chrome
+  -webkit-opacity: 0.5 ios 7 8
+
+#### 4.英文文本强制换行
+
+  word-break: break-all;
+
+#### 5.处理数据或时间等要考虑边界问题，比如时间0分钟之前。
+
+
+
+

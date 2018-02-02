@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "mysql 常用技巧"
+date:   2016-12-21 18:8:01
+categories: db  
+---
+
+#### 远程连接mysql服务器
+
+首先要有一个liunx，装了mysql客户端
+
+    连接命令 mysql -h 10.189.30.34 -P 3857 -u nowtest -p
+
+#### 命令行操作有中文乱码
+
+在mysql> 中运行命令  set NAMES 'utf8';
+
+
+
+
+
